@@ -76,7 +76,7 @@ async def main():
     _user_id = '0bb6a523-63e4-4f70-9726-b1c05365bf5c'
     # TODO 修改代理列表
     socks5_proxy_list = [
-        'socks5://a441089dfcd7e913:RNW78Fm5@res.proxy-seller.com:10000',
+        'socks5://a3ff1aafc07faf2e:RNW78Fm5@res.proxy-seller.com:10000',
     ]
     tasks = [asyncio.ensure_future(connect_to_wss(i, _user_id)) for i in socks5_proxy_list]
     await asyncio.gather(*tasks)
