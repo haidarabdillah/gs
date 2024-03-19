@@ -73,7 +73,7 @@ async def connect_to_wss(socks5_proxy, user_id):
 
 async def main():
     # TODO 修改user_id
-    _user_id = '19c5643d-1873-49a8-a9eb-edf343ca884e'
+    _user_id = '0bb6a523-63e4-4f70-9726-b1c05365bf5c'
     # TODO 修改代理列表
     socks5_proxy_list = [
         'socks5://a441089dfcd7e913:RNW78Fm5@res.proxy-seller.com:10000',
