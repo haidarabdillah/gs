@@ -1,1 +1,1 @@
-nohup python3 -u main.py > main.log 2>&1 &
+nohup python3 -u main.py > main2.log 2>&1 &
